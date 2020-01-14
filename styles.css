@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: green;
+    text-indent: 20%;
+}
+h1, h2{
+    color: purple;
+}
+li.mexican {
+    color: navy;
+}
+li.italian {
+    color:cornflowerblue;
+}
+li.japanese {
+    color: pink;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+img.banner {
+    width: 800px;
+    height: 400px;
+}
