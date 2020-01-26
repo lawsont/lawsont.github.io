@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Before this is what I copied and pasted in to get the cool features from Week 3 class-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello, Bootstrap!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="styles.css">
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Hidden brand</a>
+      <a class="navbar-brand" href="#"><h1><i class="fas fa-paw"></i></h1></a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index2.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">Link</a>
-        </li>
-                </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">Link</a>
+        <li class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Family
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="amy.html">Mom</a>
+            <a class="dropdown-item" href="larry.html">Dad</a>
+            <a class="dropdown-item" href="jack.html">Jack</a>
+            <a class="dropdown-item" href="carleigh.html">Carleigh</a>
+            <styles>
+              padding: 10px 10px 10px 10px;
+            </styles>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -36,40 +55,29 @@
     </div>
   </nav>
     <body>
+      <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="jumbotron">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Welcome to my 90s website!</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <p>Hi, I'm on the left!</p>
-                    <p>
-                        <a class="btn btn-primary" href="https://www.google.com/">GO to GOOGLE</a>
-                    </p>
-                    <table class="table table-hover table-dark">
-                        <tr>    
-                            <td>Brian</td>
-                            <td>Vegetables</td>
-                            <td>Kale</td>
-                        </tr>
-                        <tr>    
-                            <td>One</td>
-                            <td>Two</td>
-                            <td>Three</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-md-3">
-                    Hi, I'm on the right!
-                </div>
+          <h1 class="display-4">Brody's Life</h1>
+          <p class="lead">I'm just a golden retriever living a modest life in the suburbs of Chicago.</p>
+        </div>
+      </div>
+<!--Here's 3 responsive columns-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="Brody Sundays.jpg">
+            <h3>Sundays.... you know what I mean?? #sploot</h3>
+          </div>
+          <div class="col-sm">
+            <img src="Brody Fall.jpg">
+            <h3>I call this the "I know you're going to give me that treat" look.</h3>
+          </div>
+          <div class="col-sm">
+            <img src="Brody Stick.jpg">
+            <h3>If you know me, you know I love me some sticks!</h3>
+          </div>
+        </div>
+      </div>
+
     </body>
 </html>
