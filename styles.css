@@ -6,13 +6,28 @@ h3 {
     text-align: center;
     padding-top: 7%;
 }
-img {
+.moments {
     width: 350px;
     height: 350px;
     text-align: center;
   }
   h2 {
       text-align: center;
-      padding-top: 9%;
-      padding-bottom: 9%;
+      padding-top: 4%;
+      padding-bottom: 4%;
+  }
+  p {
+      font-size: 16px;
+      padding-top: 10px;
+  }
+  .carousel-inner {
+        margin-left: auto;
+        margin-right: auto;
+  }
+  .row {
+        padding-top: 5%;
+        padding-bottom: 5%;
+  }
+  .card  {
+      height: 100px
   }
